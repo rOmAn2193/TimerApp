@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E48BA68D1C82CA0000FA1100 /* TimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48BA68C1C82CA0000FA1100 /* TimerVC.swift */; };
+		E498E8A61C82489200A77ABD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E498E8A51C82489200A77ABD /* AppDelegate.swift */; };
+		E498E8A81C82489200A77ABD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E498E8A71C82489200A77ABD /* ViewController.swift */; };
+		E498E8AB1C82489200A77ABD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E498E8A91C82489200A77ABD /* Main.storyboard */; };
+		E498E8AD1C82489200A77ABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E498E8AC1C82489200A77ABD /* Assets.xcassets */; };
+		E498E8B01C82489200A77ABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E498E8AE1C82489200A77ABD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E48BA68C1C82CA0000FA1100 /* TimerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerVC.swift; sourceTree = "<group>"; };
+		E498E8A21C82489200A77ABD /* TimerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E498E8A51C82489200A77ABD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E498E8A71C82489200A77ABD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E498E8AA1C82489200A77ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E498E8AC1C82489200A77ABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E498E8AF1C82489200A77ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E498E8B11C82489200A77ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E498E89F1C82489200A77ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E498E8991C82489200A77ABD = {
+			isa = PBXGroup;
+			children = (
+				E498E8A41C82489200A77ABD /* TimerApp */,
+				E498E8A31C82489200A77ABD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E498E8A31C82489200A77ABD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E498E8A21C82489200A77ABD /* TimerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E498E8A41C82489200A77ABD /* TimerApp */ = {
+			isa = PBXGroup;
+			children = (
+				E498E8A51C82489200A77ABD /* AppDelegate.swift */,
+				E48BA68C1C82CA0000FA1100 /* TimerVC.swift */,
+				E498E8A71C82489200A77ABD /* ViewController.swift */,
+				E498E8A91C82489200A77ABD /* Main.storyboard */,
+				E498E8AC1C82489200A77ABD /* Assets.xcassets */,
+				E498E8AE1C82489200A77ABD /* LaunchScreen.storyboard */,
+				E498E8B11C82489200A77ABD /* Info.plist */,
+			);
+			path = TimerApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E498E8A11C82489200A77ABD /* TimerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E498E8B41C82489200A77ABD /* Build configuration list for PBXNativeTarget "TimerApp" */;
+			buildPhases = (
+				E498E89E1C82489200A77ABD /* Sources */,
+				E498E89F1C82489200A77ABD /* Frameworks */,
+				E498E8A01C82489200A77ABD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimerApp;
+			productName = TimerApp;
+			productReference = E498E8A21C82489200A77ABD /* TimerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E498E89A1C82489200A77ABD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Roman Puzey";
+				TargetAttributes = {
+					E498E8A11C82489200A77ABD = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = URRFBAQJ2L;
+					};
+				};
+			};
+			buildConfigurationList = E498E89D1C82489200A77ABD /* Build configuration list for PBXProject "TimerApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E498E8991C82489200A77ABD;
+			productRefGroup = E498E8A31C82489200A77ABD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E498E8A11C82489200A77ABD /* TimerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E498E8A01C82489200A77ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E498E8B01C82489200A77ABD /* LaunchScreen.storyboard in Resources */,
+				E498E8AD1C82489200A77ABD /* Assets.xcassets in Resources */,
+				E498E8AB1C82489200A77ABD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E498E89E1C82489200A77ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E498E8A81C82489200A77ABD /* ViewController.swift in Sources */,
+				E48BA68D1C82CA0000FA1100 /* TimerVC.swift in Sources */,
+				E498E8A61C82489200A77ABD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E498E8A91C82489200A77ABD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E498E8AA1C82489200A77ABD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E498E8AE1C82489200A77ABD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E498E8AF1C82489200A77ABD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E498E8B21C82489200A77ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E498E8B31C82489200A77ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E498E8B51C82489200A77ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.Roman.Puzey.TimerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E498E8B61C82489200A77ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.Roman.Puzey.TimerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E498E89D1C82489200A77ABD /* Build configuration list for PBXProject "TimerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E498E8B21C82489200A77ABD /* Debug */,
+				E498E8B31C82489200A77ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E498E8B41C82489200A77ABD /* Build configuration list for PBXNativeTarget "TimerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E498E8B51C82489200A77ABD /* Debug */,
+				E498E8B61C82489200A77ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E498E89A1C82489200A77ABD /* Project object */;
+}
